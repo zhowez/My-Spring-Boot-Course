@@ -1,12 +1,14 @@
 # My-Spring-Boot-Course
-A course to learn Spring/Spring Boot created from following the official guides on the spring.io website.
-### [Spring Guides](https://spring.io/guides)
 
+A course to learn Spring/Spring Boot created from following the official guides on the spring.io website.
+
+## [Spring Guides](https://spring.io/guides)
 
 ### Learning Path for Spring and Spring Boot
 
 1. **Core Concepts and Basics**
-   - [ ] Accessing Relational Data using JDBC with Spring
+
+   - [x] Accessing Relational Data using JDBC with Spring
    - [ ] Accessing Data with JPA
    - [ ] Accessing Data with MongoDB
    - [ ] Accessing Neo4j Data with REST
@@ -15,6 +17,7 @@ A course to learn Spring/Spring Boot created from following the official guides 
    - [ ] Accessing Data Reactively with Redis
 
 2. **Building RESTful Services**
+
    - [ ] Building REST services with Spring
    - [ ] Building a RESTful Web Service
    - [ ] Building a Hypermedia-Driven RESTful Web Service
@@ -23,17 +26,20 @@ A course to learn Spring/Spring Boot created from following the official guides 
    - [ ] Building web applications with Spring Boot and Kotlin
 
 3. **Web Applications**
+
    - [ ] Serving Web Content with Spring MVC
    - [ ] Handling Form Submission
    - [ ] Creating CRUD UI with Vaadin
    - [ ] Using WebSocket to build an interactive web application
 
 4. **Security**
+
    - [ ] Securing a Web Application
    - [ ] Spring Security and Angular
    - [ ] Spring Boot and OAuth2
 
 5. **Messaging**
+
    - [ ] Messaging with Redis
    - [ ] Messaging with RabbitMQ
    - [ ] Messaging with JMS
@@ -41,12 +47,14 @@ A course to learn Spring/Spring Boot created from following the official guides 
    - [ ] Spring Cloud Stream
 
 6. **Integration and Data**
+
    - [ ] Integrating Data
    - [ ] Accessing Data in Pivotal GemFire with REST
    - [ ] Accessing Vault
    - [ ] Vault Configuration
 
 7. **Advanced Topics**
+
    - [ ] Scheduling Tasks
    - [ ] Creating a Batch Service
    - [ ] Creating a Multi Module Project
@@ -67,6 +75,7 @@ A course to learn Spring/Spring Boot created from following the official guides 
    - [ ] Spring Boot with Kotlin Coroutines and RSocket
 
 8. **Testing and Documentation**
+
    - [ ] Testing the Web Layer
    - [ ] Creating API Documentation with Restdocs
 
@@ -82,6 +91,7 @@ A course to learn Spring/Spring Boot created from following the official guides 
    - [ ] Caching Data with Spring
 
 ### Additional Specific Topics
+
 - **Authentication and Authorization:**
   - [ ] Authenticating a User with LDAP
 - **File Handling:**
