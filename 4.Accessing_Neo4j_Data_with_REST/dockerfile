@@ -1,0 +1,17 @@
+# Use the official Neo4j image from Docker Hub
+FROM neo4j:latest
+
+
+# Set environment variable to override minimum password length
+ENV NEO4J_dbms_security_auth__minimum__password__length=5
+# Set password
+ENV NEO4J_AUTH=neo4j/secret
+
+# Expose ports for Neo4j browser and bolt
+EXPOSE 7474 7687
+
+# Install curl to change default password (not recommended for production)
+RUN apt-get update && apt-get install -y curl
+
+# Start Neo4j server
+CMD ["neo4j"]
