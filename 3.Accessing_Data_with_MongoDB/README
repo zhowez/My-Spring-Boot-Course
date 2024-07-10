@@ -1,0 +1,17 @@
+Create a new file named Dockerfile in your working directory and add the above content to it.
+
+- Build the Docker Image:
+
+Open a terminal in the directory containing your Dockerfile and run the following command to build your Docker image:
+
+RUN: docker build -t my-mongodb .
+
+- Here, -t my-mongodb tags the image with the name my-mongodb.
+
+Run the Docker Container:
+
+After building the image, you can run a container using the following command:
+
+RUN: docker run --name my-mongodb-container -d -p 27017:27017 my-mongodb
+
+- This command runs a container named my-mongodb-container in detached mode and maps port 27017 of the container to port 27017 on the host.

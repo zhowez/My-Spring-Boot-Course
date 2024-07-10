@@ -10,7 +10,7 @@ A course to learn Spring/Spring Boot created from following the official guides 
 
    - [x] Accessing Relational Data using JDBC with Spring
    - [x] Accessing Data with JPA
-   - [ ] Accessing Data with MongoDB
+   - [x] Accessing Data with MongoDB
    - [ ] Accessing Neo4j Data with REST
    - [ ] Accessing Data with MySQL
    - [ ] Accessing data with R2DBC
