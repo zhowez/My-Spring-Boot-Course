@@ -9,7 +9,7 @@ A course to learn Spring/Spring Boot created from following the official guides 
 1. **Core Concepts and Basics**
 
    - [x] Accessing Relational Data using JDBC with Spring
-   - [ ] Accessing Data with JPA
+   - [x] Accessing Data with JPA
    - [ ] Accessing Data with MongoDB
    - [ ] Accessing Neo4j Data with REST
    - [ ] Accessing Data with MySQL
